@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import w from "/public/W_logo.jpg"; // Ajusta la ruta según tu estructura de proyecto
+import IMAGES from "../images/images"; // Ajusta la ruta según tu estructura de proyecto
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto px-4 flex justify-between items-center h-16">
                 {/* Logo */}
                 <div className="flex items-center">
-                    <img src={w} alt="logo" className="h-10 w-10 rounded-full mr-2" />
+                    <img src={IMAGES.w} alt="logo" className="h-10 w-10 rounded-full mr-2" />
                     <a href="/" className="text-2xl font-bold">MyBrand</a>
                 </div>
 
