@@ -16,7 +16,6 @@ export interface Experiencia {
     role: string;
     company: string;
     description: string;
-    tecnologies: string[];
 }
 
 // interface para datos personales 
@@ -62,3 +61,13 @@ export const projects: Project[] = [
         image: "/images/portfolio.png",
     },
 ];
+
+export const experiencia: Experiencia[] = [
+    {
+        year: "2024 - Actualmente",
+        role: "Developer",
+        company: "Quickapps",
+        description: "Desarrollador manenado JS, React, manejando reportes y uso de APIs",
+
+    },
+]
