@@ -67,7 +67,7 @@ export const experiencia: Experiencia[] = [
         year: "2024 - Actualmente",
         role: "Developer",
         company: "Quickapps",
-        description: "Desarrollador manenado JS, React, manejando reportes y uso de APIs",
+        description: `Desarrollador web con experiencia en React, NestJS y Express. Especialista en la gestión y optimización de bases de datos como PostgreSQL y MongoDB, diseño de APIs REST y generación de reportes personalizados. Manejo de Docker para crear contenedores y desplegar servicios, incluyendo bases de datos y aplicaciones. Enfocado en desarrollar soluciones web escalables y de alto impacto.`,
 
     },
 ]

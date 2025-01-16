@@ -1,9 +1,12 @@
+import { motion, Variants } from "framer-motion";
+
 import { RiReactjsLine } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { motion, Variants } from "framer-motion";
+import { SiNestjs } from "react-icons/si";
+import { RiNextjsLine } from "react-icons/ri";
 
 const iconVariants = (duration: number): Variants => ({
     initial: {y: -10},
@@ -66,6 +69,20 @@ const Technologies = () => {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
+                </motion.div>
+                <motion.div 
+                variants={iconVariants(4)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiNestjs className="text-7xl text-red-800" />
+                </motion.div>
+                <motion.div 
+                variants={iconVariants(4)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <RiNextjsLine className="text-7xl text-white" />
                 </motion.div>
             </motion.div>
         </div>

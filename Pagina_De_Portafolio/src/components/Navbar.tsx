@@ -15,22 +15,34 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto px-4 flex justify-between items-center h-16">
                 {/* Logo */}
                 <div className="flex items-center">
-                    <img src={IMAGES.w} alt="logo" className="h-10 w-10 rounded-full mr-2" />
-                    <a href="/" className="text-2xl font-bold">MyBrand</a>
+                    {/* <img src={IMAGES.w} alt="logo" className="h-10 w-10 rounded-full mr-2" /> */}
+                    <a href="/" className="text-2xl font-bold">Willy R.</a>
                 </div>
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-4">
-                    <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium hover:underline">Home</a>
+                    {/* <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium hover:underline">Home</a>
                     <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium hover:underline">About</a>
                     <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium hover:underline">Services</a>
-                    <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium hover:underline">Contact</a>
+                    <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium hover:underline">Contact</a> */}
                 </div>
 
                 {/* Icons for Social Media */}
                 <div className="hidden md:flex items-center space-x-4 text-2xl">
-                    <FaLinkedin />
-                    <FaGithub />
+                    <a
+                    href="https://www.linkedin.com/in/willyrih/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gray-400">
+                        <FaLinkedin />
+                    </a>
+                    <a
+                        href="https://github.com/oldwilly12"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-gray-400">                       
+                        <FaGithub />
+                    </a>
                     <FaSquareXTwitter />
                     <FaInstagram />
                 </div>
