@@ -15,7 +15,7 @@ const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap justify-center items-center ">
-                <div className="w-8/12">
+                <div className="sm:w-6/12 lg:w-6/12">
                     <div className="flex flex-col items-center lg:items-start">
                         <motion.h1
                             variants={container(0)}
@@ -43,8 +43,8 @@ const Hero = () => {
                         animate="visible"
                         src="/Perfil.jpeg"
                         alt="Willy Rivera"
-                        className="rounded-full w-48 h-48 lg:w-64 lg:h-64" />
-                    </div>
+                        className="rounded-md w-64 h-64 lg:w- lg:h-64" />
+                </div>
             </div>
         </div>
     )
